@@ -8,4 +8,4 @@ System.setProperty("webdriver.chrome.driver", "C:\\Users\\jupiter\\chromedriver.
 		System.out.println(driver.getPageSource());
 		driver.get("https://yahoo.com");
 		//driver.navigate().back();
-		
+		driver.close();
